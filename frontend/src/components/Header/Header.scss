@@ -1,0 +1,28 @@
+.headerPage {
+    background: skyblue;
+    height: 50px;
+    width: 100%;
+    display:flex;
+    &__container {
+        display: flex;
+        list-style: none;
+        padding: 10px;
+    }
+    &__link {
+        margin-right: 20px;
+    }
+    &__link {
+        text-decoration: none;
+        color: #000;
+        font-size: 18px;
+    }
+    &__right {
+        float: right;
+    }
+    &__logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 20px;
+    }
+}

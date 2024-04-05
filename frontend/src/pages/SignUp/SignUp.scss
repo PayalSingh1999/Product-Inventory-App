@@ -1,0 +1,16 @@
+.signUpPage {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    &__form {
+        margin-top:20px;
+    }
+    // &__input {
+    //     width: 50% !important;
+    // }
+    &__button {
+        color: #fff !important;
+        background: red !important;
+        border:none !important;
+    }
+}

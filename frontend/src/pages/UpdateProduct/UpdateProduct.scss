@@ -1,0 +1,16 @@
+.updateProducts {
+    text-align: center;
+    &__input {
+        width: 400px !important;
+        margin-left:40%;
+    }
+    &__button {
+        color: #fff !important;
+        background: red !important;
+        border:none !important;
+    }
+    // &__error {
+    //     color: red !important;
+    //     text-align: left !important;
+    // }
+}
